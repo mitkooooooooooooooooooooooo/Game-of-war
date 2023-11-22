@@ -1,8 +1,20 @@
-﻿using System;
-
-public class Class1
+﻿namespace game_of_war
 {
-	public Class1()
-	{
-	}
+
+    public enum CardFace
+    {
+        Two = 2,
+        Three = 3,
+        Four = 4,
+        five = 5,
+        Six = 6,
+        Seven = 7,
+        Eight = 8,
+        Nine = 9,
+        Ten = 10,
+        Jack = 11,
+        Queen = 12,
+        King = 13,
+        Ace = 14
+    }
 }

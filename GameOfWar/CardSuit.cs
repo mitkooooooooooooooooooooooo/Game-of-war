@@ -1,8 +1,8 @@
-﻿using System;
-
-public class Class1
+﻿public enum CardSuit
 {
-	public Class1()
-	{
-	}
+    Spade = '♠',
+    Club = '♣',
+    Heart = '♥',
+    Diamond = '♦'
+
 }

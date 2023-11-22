@@ -1,8 +1,24 @@
-﻿using System;
+﻿
 
-public class Class1
+public class Card
 {
-	public Class1()
-	{
-	}
+    public int Face { get; set; }
+    public CardSuit Suite { get; set; }
+
+
+
+
+
+    public override string ToString()
+    {
+
+
+
+        return base.ToString();
+    }
+
+
+
 }
+
+
